@@ -24,7 +24,7 @@ use:
 
 ``` r
 if(!require(devtools)) install.packages("devtools") # If not already installed
-devtools::install_github("jkrijthe/Rtsne")
+devtools::install_github("mwsill/Rtsne")
 ```
 
 ## Usage
