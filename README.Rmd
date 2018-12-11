@@ -30,7 +30,7 @@ install.packages("Rtsne") # Install Rtsne package from CRAN
 To install the latest version from the github repository, use:
 ```{r, eval = FALSE}
 if(!require(devtools)) install.packages("devtools") # If not already installed
-devtools::install_github("jkrijthe/Rtsne")
+devtools::install_github("mwsill/Rtsne")
 ```
 
 
