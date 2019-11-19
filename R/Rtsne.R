@@ -177,7 +177,7 @@ Rtsne.default <- function(X, dims=2, initial_dims=50,
 #' @describeIn Rtsne tsne on given dist object
 #' @export
 Rtsne.dist <- function(X,...,is_distance=TRUE) {
-  X <- as.matrix(na.fail(X)
+  X <- as.matrix(X)
   Rtsne(X, ..., is_distance=is_distance)
 }
 
